@@ -1,0 +1,14 @@
+.exchanges-list {
+  background-color: #fff;
+}
+.exchanges-list .exchanges-list-row > div {
+  width: 25%;
+}
+
+.exchanges-list .exchanges-list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 12px;
+}

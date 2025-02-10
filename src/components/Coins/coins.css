@@ -1,0 +1,26 @@
+.coin-name {
+  display: flex;
+}
+
+.coin-name .coin-logo img {
+  width: 32px;
+}
+
+.coins .coins-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 12px;
+}
+
+.coins {
+  background-color: #fff;
+}
+.coins .coins-row > div {
+  width: 25%;
+}
+
+.coins .coin-name-container {
+  display: flex;
+}

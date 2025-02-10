@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999999999999999;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo img {
+  width: 82px;
+  height: 32px;
+}
+
+nav .settings {
+  display: flex;
+}
+
+nav .settings > div {
+  padding: 16px;
+}
